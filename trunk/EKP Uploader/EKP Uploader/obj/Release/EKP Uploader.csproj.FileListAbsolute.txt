@@ -1,0 +1,12 @@
+C:\Documents and Settings\rob\My Documents\Visual Studio 2008\Projects\EKP Uploader\EKP Uploader\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\rob\My Documents\Visual Studio 2008\Projects\EKP Uploader\EKP Uploader\obj\Release\EKP_Uploader.Properties.Resources.resources
+C:\Documents and Settings\rob\My Documents\Visual Studio 2008\Projects\EKP Uploader\EKP Uploader\obj\Release\EKP Uploader.csproj.GenerateResource.Cache
+C:\Documents and Settings\rob\My Documents\Visual Studio 2008\Projects\EKP Uploader\EKP Uploader\obj\Release\EKP_Uploader.UploaderForm.resources
+C:\Documents and Settings\rob\My Documents\Visual Studio 2008\Projects\EKP Uploader\EKP Uploader\bin\Release\EKP Uploader.exe
+C:\Documents and Settings\rob\My Documents\Visual Studio 2008\Projects\EKP Uploader\EKP Uploader\bin\Release\EKP Uploader.pdb
+C:\Documents and Settings\rob\My Documents\Visual Studio 2008\Projects\EKP Uploader\EKP Uploader\obj\Release\EKP Uploader.exe
+C:\Documents and Settings\rob\My Documents\Visual Studio 2008\Projects\EKP Uploader\EKP Uploader\obj\Release\EKP Uploader.pdb
+C:\Documents and Settings\rob\My Documents\Visual Studio 2008\Projects\EKP Uploader\EKP Uploader\bin\Release\EKP Uploader.exe.manifest
+C:\Documents and Settings\rob\My Documents\Visual Studio 2008\Projects\EKP Uploader\EKP Uploader\bin\Release\EKP Uploader.application
+C:\Documents and Settings\rob\My Documents\Visual Studio 2008\Projects\EKP Uploader\EKP Uploader\obj\Release\EKP Uploader.exe.manifest
+C:\Documents and Settings\rob\My Documents\Visual Studio 2008\Projects\EKP Uploader\EKP Uploader\obj\Release\EKP Uploader.application
