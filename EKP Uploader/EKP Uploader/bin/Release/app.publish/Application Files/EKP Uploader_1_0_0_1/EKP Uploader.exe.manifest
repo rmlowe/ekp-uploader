@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity name="EKP Uploader.exe" version="1.0.0.1" publicKeyToken="23600788b62d1edf" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EKP Uploader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="EKP Uploader.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EKP Uploader.exe" size="16384">
+      <assemblyIdentity name="EKP Uploader" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Xb6X/Rqut5aZoHx8/u5AvIM8VTM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Q66K-I-ROB\rob" issuerKeyHash="c1270f1ba11b1b2f71a01308cbba12fb677d0cba" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>ci1M8oLyCpuNr8yI7WzH37vUEGc=</DigestValue></Reference></SignedInfo><SignatureValue>Mb2E+u+2jnMEyKxs9/u0+eEdhziHRxhuFrrjL1001yRqqVfDE8l8/sZhikv8DvUKZxp80/k2cXto0PaAYFvh8o3KlPcsWKo7Wy0lhC4MY32ldIymAmPY1lhT2Vpe0wLabfL8P/WqHPC00ermQ66oNGieWp30ZsDipAif9vlQVEQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0OO4k2EHIQpx/2ZER4JNHjjzk/w7XHBQ6xA7nT4mCFTCuyOngLNoHr6jnEaMDibVL5AV4DR9liWE/40/NdzVdvyFOEQlIdw8b0edeQtkitdG2KkNkbUfuSbnbgmLKtzYmYU36eJdMd0fNfrgAY0JGy4j2lfF4uGyC+37sPeIbxM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="6710d4bbdfc76ced88ccaf8d9b0af282f24c2d72" Description="" Url=""><as:assemblyIdentity name="EKP Uploader.exe" version="1.0.0.1" publicKeyToken="23600788b62d1edf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Q66K-I-ROB\rob</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>vjXpcbKl5MNTN2GO3bvNcD9QKgY=</DigestValue></Reference></SignedInfo><SignatureValue>RmEmhZu+cMHWfmz+ee5P0T1h+8omc9GFEYm/kyLkV26YQkHGayX3QR+THptekjUKPIC/mx10Yqwr6sJ7B0IahIHhgeoNN82vh5GHGsCNtT8sNZnlmw0F6rXiO9hNKz4RzkpYOZE2B6XqZpX5LP0ACnFH6cP2An7HtHDqmlch+SY=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0OO4k2EHIQpx/2ZER4JNHjjzk/w7XHBQ6xA7nT4mCFTCuyOngLNoHr6jnEaMDibVL5AV4DR9liWE/40/NdzVdvyFOEQlIdw8b0edeQtkitdG2KkNkbUfuSbnbgmLKtzYmYU36eJdMd0fNfrgAY0JGy4j2lfF4uGyC+37sPeIbxM=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATagAwIBAgIQEw6uXiv2x5BMGOXflvOUjTAJBgUrDgMCHQUAMCcxJTAjBgNVBAMeHABRADYANgBLAC0ASQAtAFIATwBCAFwAcgBvAGIwHhcNMDkxMTI2MjEzMzU1WhcNMTAxMTI3MDMzMzU1WjAnMSUwIwYDVQQDHhwAUQA2ADYASwAtAEkALQBSAE8AQgBcAHIAbwBiMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ47iTYQchCnH/ZkRHgk0eOPOT/DtccFDrEDudPiYIVMK7I6eAs2gevqOcRowOJtUvkBXgNH2WJYT/jT813NV2/IU4RCUh3DxvR515C2SK10bYqQ2RtR+5JuduCYsq3NiZhTfp4l0x3R81+uABjQkbLiPaV8Xi4bIL7fuw94hvEwIDAQABMAkGBSsOAwIdBQADgYEAIXzLL6W2Q+eAgeul1QgXLtuWv3o0300fI64QvTgfiaR/exOiPuxRWt0oPrW5V66N1KlMNz91IdlyUPIB2DKA4A7fpXgIKnD5BvsJikOxwnQmktOcU8aTs8gv1b8tDw3h9itbl/EFhzGryvUKbRWkKggyxrTnLsQlhWDXLc1ePko=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
